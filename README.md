@@ -10,3 +10,8 @@ Install all python dependencies:
 ```
 pip3 install pyautogui evdev
 ```
+
+Launch it:
+```
+python3 xbox_map_service.py
+```
