@@ -10,7 +10,9 @@ bothDownStartTime = -1
 
 def processStickDownTime(seconds):
     if seconds > 2:
-        pyautogui.hotkey("esc")
+        pyautogui.keyDown('esc')
+        time.sleep(2)
+        pyautogui.keyUp('esc')
     elif seconds > 1:
         pyautogui.keyDown('f12')
         time.sleep(1)
